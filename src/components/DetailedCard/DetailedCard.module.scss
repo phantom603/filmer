@@ -1,0 +1,72 @@
+.container {
+  padding-right: 50px;
+}
+
+.title {
+  font-size: 24px;
+  color: white;
+  padding: 30px 0;
+}
+
+.main {
+  display: flex;
+}
+
+.mainLeft {
+  flex-grow: 1;
+}
+
+.mainRight {
+  flex: 0 0 300px;
+  padding-left: 30px;
+}
+
+.overview {
+  font-size: 16px;
+  color: #B6B6B6;
+  line-height: 1.4;
+}
+
+.parametersWrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  margin-bottom: 20px;
+}
+
+.image {
+  margin-bottom: 35px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.controls {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+
+.btn {
+  font-size: 16px;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  height: 80px;
+  cursor: pointer;
+
+  &:focus {
+    background: #FF7800;
+  }
+}
+
+.icon {
+  color: white;
+  margin-right: 5px;
+  font-size: 34px !important;
+}
